@@ -1,13 +1,13 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-import gradingStudents from './gradingStudents';
+// Source: https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true
+import countApplesAndOranges from './countApplesAndOranges';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [73, 67, 38, 33];
-  const result = gradingStudents(testArray);
-  console.log('Result: ', result);
+  const appleArray = [-2, 2, 1];
+  const orangeArray = [5, -6];
+  countApplesAndOranges(7, 11, 5, 15, appleArray, orangeArray);
 }
 
 main();
